@@ -1,0 +1,42 @@
+.wrapper{
+    width: 1000px;
+}
+.wrapper .image-gallery{
+    width: 800px ;
+    height: 200px;
+    padding:  5px;
+    display: flex;
+    justify-content:space-between;  
+}
+.wrapper .image-gallery .image{
+    width: 20%;
+    height: 100%;
+    padding: 10px 5px;
+    border: 2px solid blueviolet;
+    
+    
+}
+.wrapper .image-gallery .image .image-child{
+      
+    width: 80%;
+    height: 80%;
+    margin: 0 auto ;
+    overflow: hidden;
+    margin-top: 5px;
+
+}
+.wrapper .image-gallery label{
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.wrapper .image-gallery .image .image-child img{
+    width: 100%;
+    height: 100%;
+    
+   
+    box-shadow: 1px 1px 1px 1px ;
+}
+.wrapper .image-gallery .image .image-child img:hover{
+
+    transform: scale(1.2);
+}

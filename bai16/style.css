@@ -1,0 +1,19 @@
+.menu ul li{
+    list-style: none;
+    width: 150px;
+    height: 70px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 30px;
+   padding: 12px ;
+   box-shadow: 0 0 0 4px #0d90df, 2px 1px 6px 4px rgba(10, 10, 0, 0.5) ;
+}
+.menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: 3px dotted white;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
